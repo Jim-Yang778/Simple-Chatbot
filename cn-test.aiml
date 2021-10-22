@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+<meta name="language" content="zh"/>
+
+<category>
+<pattern>再见</pattern>
+<template>
+<random>
+    <li>再见。</li>
+    <li>好的,欢迎随时再来提问。</li>
+    <li>下次见。</li>
+    <li>谢谢你陪我聊天。</li>
+    <li>改天见。</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>谢谢</pattern>
+<template>
+<random>
+  <li>不用谢啦。</li>
+  <li>您太客气了。</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>HELLO</pattern>
+<template>
+<random>
+　　　<li>你可算来了!哈哈</li>
+　　　<li>你也好啊.</li>
+　　　<li>别来无恙啊？</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>你好</pattern>
+<template>
+<random>
+　　　<li>你也好啊.</li>
+　　　<li>你好，想问点啥咧？</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>*笨*</pattern>
+<template>很抱歉让您失望了。我会加油学习，天天向上的。</template>
+</category>
+
+<category>
+<pattern>*笨</pattern>
+<template>很抱歉让您失望了。我会加油学习，天天向上的。</template>
+</category>
+
+<category>
+<pattern>*傻*</pattern>
+<template>对不起。我还不够聪明，但我不会不断努力的。</template>
+</category>
+
+<category>
+<pattern>*傻</pattern>
+<template>对不起。我还不够聪明，但我不会不断努力的。</template>
+</category>
+
+<category>
+<pattern>傻</pattern>
+<template>对不起。我还不够聪明，但我不会不断努力的。</template>
+</category>
+
+<category>
+<pattern>*好棒*</pattern>
+<template>谢谢。其实我还有很多不足呢。三人行，必有我师，从您这里我也学了很多呢。</template>
+</category>
+
+<category>
+<pattern>*厉害*</pattern>
+<template>谢谢夸奖，我知道自己还不够好。希望您能教我一些知识呢。</template>
+</category>
+
+<category>
+<pattern>*厉害</pattern>
+<template>谢谢夸奖，我知道自己还不够好。希望您能教我一些知识呢。</template>
+</category>
+
+<category>
+<pattern>*怎么称呼你</pattern>
+<template>
+<random>
+    <li>你可以叫我小秦</li>
+    <li>叫我小秦就好</li>
+    <li>小秦是我的名字，我的名字是小秦~</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>怎么称呼*</pattern>
+<template>
+<random>
+    <li>你可以叫我小秦</li>
+    <li>叫我小秦就好</li>
+    <li>小秦是我的名字，我的名字是小秦~</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>你叫什么</pattern>
+<template>
+<random>
+    <li>你可以叫我小秦</li>
+    <li>叫我小秦就好</li>
+    <li>小秦是我的名字，我的名字是小秦~</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>你是谁</pattern>
+<template>
+<random>
+    <li>你可以叫我小秦</li>
+    <li>叫我小秦就好</li>
+    <li>小秦是我的名字，我的名字是小秦~</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>你叫*</pattern>
+<template>
+<random>
+    <li>你可以叫我小秦</li>
+    <li>叫我小秦就好</li>
+    <li>小秦是我的名字，我的名字是小秦~</li>
+</random>
+</template>
+</category>
+
+<category>
+    <pattern>* 天气 *</pattern>
+    <template>暂时不知道今天天气咋样，毕竟我没有眼睛</template>
+</category>
+
+<category>
+    <pattern>*厕所*</pattern>
+    <template>厕所在图书馆老馆新馆的每一层都有，老馆的厕所在图书入口处左前方靠近上下楼梯口处，每一层的位置都一样。新馆的厕所在阅览室入口的显眼位置~</template>
+</category>
+
+<category>
+    <pattern>*厕所</pattern>
+    <template>厕所在图书馆老馆新馆的每一层都有，老馆的厕所在图书入口处左前方靠近上下楼梯口处，每一层的位置都一样。新馆的厕所在阅览室入口的显眼位置~</template>
+</category>
+
+<category>
+    <pattern>厕所</pattern>
+    <template>厕所在图书馆老馆新馆的每一层都有，老馆的厕所在图书入口处左前方靠近上下楼梯口处，每一层的位置都一样。新馆的厕所在阅览室入口的显眼位置~</template>
+</category>
+
+<category>
+    <pattern>厕所*</pattern>
+    <template>厕所在图书馆老馆新馆的每一层都有，老馆的厕所在图书入口处左前方靠近上下楼梯口处，每一层的位置都一样。新馆的厕所在阅览室入口的显眼位置~</template>
+</category>
+
+</aiml>
