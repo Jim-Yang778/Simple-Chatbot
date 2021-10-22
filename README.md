@@ -52,7 +52,7 @@ Include QA log, database, naive bayes classifier.
 2. 等所有的包下载完
 3. 运行 app.py
 
-## File and Class Structure
+## 文件的功能
 
 * app.py 运行flask服务器
 * classification.py 机器学习分类器
