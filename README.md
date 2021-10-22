@@ -4,6 +4,8 @@ This is a super simple chatbot(Mandarin). Include basic QA and business QA in un
 
 Include QA log, database, naive bayes classifier.
 
+<img src="example.jpg"/>
+
 ## Dependencies for Running Locally
 
 * Python >= 3.7
@@ -32,6 +34,8 @@ Include QA log, database, naive bayes classifier.
 # 超级简陋聊天机器人
 
 超级简陋的问答系统(?)。包含简单的聊天和图书馆业务问答（已去除数据集）
+
+<img src="example.jpg"/>
 
 ## 依赖库
 
