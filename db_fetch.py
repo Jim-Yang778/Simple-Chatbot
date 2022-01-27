@@ -6,6 +6,8 @@
 import sqlite3
 import time
 
+
+#添加非AIML问答(专业知识)
 def Insert_expert(dbname, question, answer, answer_type, predict_type):
     sql = "insert into log values(?, ?, ?, ?, ?, ?)"
     sql_id = "select max(logid) from log"
@@ -23,6 +25,8 @@ def Insert_expert(dbname, question, answer, answer_type, predict_type):
     con.commit()
     con.close()
 
+
+#添加AIML问答，即简单问候
 def Insert_AIML(dbname, question, answer, answer_type):
     sql = "insert into log values(?, ?, ?, ?, ?, ?)"
     sql_id = "select max(logid) from log"
@@ -40,6 +44,8 @@ def Insert_AIML(dbname, question, answer, answer_type):
     con.commit()
     con.close()
 
+
+#根据答案id获取答案和答案类型
 def Query(dbname, id):
     sql = "select answer, feature from answer where aid = ?"
     con = sqlite3.connect(dbname)

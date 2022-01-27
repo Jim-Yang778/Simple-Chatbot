@@ -9,10 +9,10 @@ def answer(question, qc, bot):
         return '您的提问是空，你可以问点啥哦。'
     answer = bot.respond(question)
     answer_type = "AIML"
-    if answer != '找不到答案':
+    if answer != 'None':
         Insert_AIML('qa.db', question, answer, answer_type)
         return answer
-    elif answer == '找不到答案':
+    elif answer == 'None':
         predict_id = qc.predict_NB(question)
 
         answer_type = "业务问答"

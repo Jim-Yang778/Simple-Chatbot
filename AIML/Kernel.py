@@ -359,7 +359,7 @@ class Kernel:
         elem = self._brain.match(subbedInput, subbedThat, subbedTopic)
         if elem is None:
             if self._verboseMode:
-                response = "找不到答案"
+                response = "None"
         else:
             # 将元素处理为响应字符串。
             response += self._processElement(elem, sessionID).strip()
